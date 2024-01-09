@@ -51,7 +51,7 @@ selected = option_menu(
 
 if selected == "Profile":
             st.write('\n')
-            col1, col2 = st.columns(2, gap="Large")
+            col1, col2 = st.columns(2)
             
             with col1:
                 st.image(profile_pic, width=230)
