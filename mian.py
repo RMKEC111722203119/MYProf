@@ -46,7 +46,7 @@ parkinsons_model= pickle.load(open("parkinsons_model.sav", 'rb'))
 selected = option_menu(
     menu_title=None,
     options=["Profile","ML project","frontend project"],
-    default_index=1,
+    default_index=0,
     orientation="horizontal")
 
 if selected == "Profile":
