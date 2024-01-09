@@ -28,8 +28,8 @@ SOCIAL_MEDIA = {
 
 st.set_page_config(page_title=PAGE_TITLE)
 
-with open(css_file) as f:
-    st.markdown("<style>{}</style>".format(f.read()), unsafe_allow_html=True)
+#with open(css_file) as f:
+#    st.markdown("<style>{}</style>".format(f.read()), unsafe_allow_html=True)
     
     
 with open(resume_file, "rb") as pdf_file:
