@@ -70,9 +70,9 @@ if selected == "Profile":
                 
                 st.write('\n')
                 
-                cols = st.columns(len(SOCIAL_MEDIA))
-                for index, (platform, link) in enumerate(SOCIAL_MEDIA.items()):
-                        cols[index].write(f"[{platform}]({link})")
+             cols = st.columns(len(SOCIAL_MEDIA))
+             for index, (platform, link) in enumerate(SOCIAL_MEDIA.items()):
+                ols[index].write(f"[{platform}]({link})")
                     
                         
                     
