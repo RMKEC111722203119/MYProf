@@ -37,9 +37,9 @@ with open(resume_file, "rb") as pdf_file:
 profile_pic = Image.open(profile_pic)
 
 
-diabetes_model = pickle.load(open("D:\Step Internship\diabetesmodel.sav", 'rb'))
-churn_model= pickle.load(open("D:\Step Internship\churn_logistic.sav", 'rb'))
-parkinsons_model= pickle.load(open("D:\Step Internship\parkinsons_model.sav", 'rb'))
+diabetes_model = pickle.load(open("diabetesmodel.sav", 'rb'))
+churn_model= pickle.load(open("churn_logistic.sav", 'rb'))
+parkinsons_model= pickle.load(open("parkinsons_model.sav", 'rb'))
 
 
 #with st.sidebar:
