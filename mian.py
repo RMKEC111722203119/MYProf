@@ -339,7 +339,7 @@ if selected == "frontend project":
    
     selec = st.selectbox(
             "Select project",
-            options=["YOUTUBE", "NETFLIX"]
+            options=["NETFLIX", "YOUTUBE"]
         )
 
     if selec == "YOUTUBE":
