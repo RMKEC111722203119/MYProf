@@ -9,7 +9,7 @@ import streamlit.components.v1 as components
 current_dir = Path(__file__).parent if "__file__" in locals() else Path.cwd()
 
 css_file="main.css"
-resume_file = "CV.pdf"
+resume_file = "VIGNESHWARAN Resume.pdf"
 profile_pic = "RMKEC.jpeg"
 
 
