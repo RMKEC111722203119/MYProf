@@ -9,7 +9,7 @@ import streamlit.components.v1 as components
 current_dir = Path(__file__).parent if "__file__" in locals() else Path.cwd()
 
 css_file="main.css"
-resume_file = "VIGNESHWARAN Resume.pdf"
+resume_file = "vigneshwaranResume.pdf"
 profile_pic = "RMKEC.jpeg"
 
 
@@ -339,7 +339,7 @@ if selected == "frontend project":
    
     selec = st.selectbox(
             "Select project",
-            options=["NETFLIX", "YOUTUBE"]
+            options=["YOUTUBE","NETFLIX"]
         )
 
     if selec == "YOUTUBE":
